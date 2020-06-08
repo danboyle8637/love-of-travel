@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Lover of Travel"
+
+[params]
+  customCSS = ["/css/global.css", "/css/header.css", "/css/home.css"]
+
+# [[menu.main]]
+#   name = "Home"
+#   url = "/"
+
+# [[menu.main]]
+#   name = "About"
+#   url = "/about"
+
+# [[menu.main]]
+#   name = "Contact"
+#   url = "/contact"

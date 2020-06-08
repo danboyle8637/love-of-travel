@@ -1,0 +1,16 @@
+{{ $customCSS := .Site.Params.CustomCSS }}
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+    {{ if not .IsHome }}
+      {{ with .Title }}
+        {{ . }}
+      {{ end }}
+    {{ end }}
+    {{ .Site.Title }}
+  </title>
+  {{ range $customCSS }}
+    <link rel="stylesheet" type="text/css" href="{{ . | relURL }}"/>
+  {{ end }}
+</head>
