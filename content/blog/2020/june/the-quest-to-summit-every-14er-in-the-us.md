@@ -1,5 +1,4 @@
 +++
-draft = true
 feature_image = "/uploads/blog-post-solo-image-6.jpg"
 post_tags = ["Hiking", "14er", "Climbing"]
 post_teaser_copy = "I never dreamed I would set a goal like this. Am I crazy? Is this a realistic thought? I tell you want I think, then you tell me!"
