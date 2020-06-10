@@ -1,0 +1,45 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Give this post a great title so people are compelled to click and read
+    it.
+- name: publish_date
+  type: datetime
+  label: Publish Date
+  description: When do you want the published date to be?
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: feature_image
+  type: file
+  config:
+    maxSize: 20
+  label: Feature Image
+  description: DIMENSIONS - This is the image for both the blog card and blog post
+    feature image.
+- name: post_tags
+  type: tag_list
+  default: []
+  label: Post Tags
+  description: Choose only a one, two or three tags. Keep the tags meaningful.
+- name: post_teaser_copy
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post Teaser Copy
+  description: Write a one to two sentence teaser for the post. Create some curiosity
+    so the visitor wants to click and read.
+pages:
+- content/blog/2020/june/the-quest-to-summit-every-14er-in-the-us.md
