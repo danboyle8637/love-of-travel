@@ -4,7 +4,7 @@ title = "Lover of Travel"
 
 [params]
   customCSS = ["/css/global.css", "/css/header.css", "/css/home.css"]
-  customJS = ["/js/main.js"]
+  customJS = ["/js/header.js"]
 
 
 # [[menu.main]]

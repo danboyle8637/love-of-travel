@@ -1,3 +1,2 @@
-{{ range .Site.Params.CustomJs }}
-  <script src="{{ . | relURL }}" async></script>
-{{ end }}
+{{ $headerJS := resources.Get "js/header.js" | resources.Minify }}
+<script src="{{ $headerJS }}" async></script>

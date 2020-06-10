@@ -1,4 +1,4 @@
-<header class="site-header">
+<header id="site-header">
   <div class="nav-container">
     {{- partial "svgs/mountain-logo.html" . -}}
     {{- partial "svgs/mobile-nav-burger.html" -}}
@@ -8,4 +8,5 @@
       {{ end }}
     </nav>
   </div>
+  {{- partial "menus/mobile-menu-drawer" . -}}
 </header>
