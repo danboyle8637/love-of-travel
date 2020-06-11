@@ -42,5 +42,6 @@ fields:
   description: Write a one to two sentence teaser for the post. Create some curiosity
     so the visitor wants to click and read.
 pages:
+- content/blog/2020/june/should-we-move-to-durango.md
 - content/blog/2020/june/the-quest-to-summit-every-14er-in-the-us.md
 - content/blog/2020/june/training-for-a-long-hike.md
