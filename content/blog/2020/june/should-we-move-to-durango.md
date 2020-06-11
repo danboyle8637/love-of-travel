@@ -1,5 +1,7 @@
 +++
 feature_image = "/uploads/blog-post-solo-image-6-1.jpg"
+feature_image_alt_tag = "Snowy mountains in the winter"
+feature_image_title_tag = "Snowy Mountains"
 post_tags = ["Mountain Living"]
 post_teaser_copy = "Moving is on many peoples minds. The mountains sound pretty good and I am going to tell you NOT to move to Durango, CO."
 publish_date = 2020-06-13T04:00:00Z

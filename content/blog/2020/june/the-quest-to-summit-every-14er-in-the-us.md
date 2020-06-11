@@ -1,5 +1,7 @@
 +++
 feature_image = "/uploads/blog-post-solo-image-6.jpg"
+feature_image_alt_tag = "Large snowy mountains in the winter"
+feature_image_title_tag = "Snowy Mountains"
 post_tags = ["Hiking", "14er", "Climbing"]
 post_teaser_copy = "I never dreamed I would set a goal like this. Am I crazy? Is this a realistic thought? I tell you want I think, then you tell me!"
 publish_date = 2020-06-09T04:00:00Z

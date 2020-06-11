@@ -25,6 +25,20 @@ fields:
   label: Feature Image
   description: DIMENSIONS - This is the image for both the blog card and blog post
     feature image.
+- name: feature_image_alt_tag
+  type: text
+  config:
+    required: true
+  label: Feature Image Alt Tag
+  description: An alt tag tells people with screen readers what the image is so they
+    can get some context.
+- name: feature_image_title_tag
+  type: text
+  config:
+    required: true
+  label: Feature Image Title Tag
+  description: A title tag tells people what the image is when their mouse is hovering
+    over it.
 - name: post_tags
   type: tag_list
   default: []
