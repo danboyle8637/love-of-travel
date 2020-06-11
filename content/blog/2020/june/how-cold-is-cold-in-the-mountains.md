@@ -1,5 +1,7 @@
 +++
 feature_image = "/uploads/blog-post-solo-image-3.jpg"
+feature_image_alt_tag = "Bigger and snowy mountains that looks pretty serious"
+feature_image_title_tag = "Even Bigger and Snowy-er Mountains"
 post_tags = ["Mountain Living"]
 post_teaser_copy = "A Western cold climate is dry. So how cold is cold when you don't have moisture in the air? I am going to tell you and you might not like what I have to say."
 publish_date = 2020-06-15T04:00:00Z
