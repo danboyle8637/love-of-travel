@@ -1,8 +1,28 @@
 {{ define "main" }}
-  <div class="home-container">
-    {{- partial "svgs/logo.html" . -}}
-    <div>
-      {{ .Content }}
+<div class="home-container">
+  {{- partial "svgs/logo.html" . -}}
+  <div class="blog-post-list-container">
+    {{ range where .Site.RegularPages "Section" "blog" }}
+    <div class="blog-post-card">
+      <img
+        style="width: 100%;"
+        src="{{ .Params.feature_image }}"
+        alt="Need alt tag"
+      />
+      <h1>
+        {{ .Params.title }}
+      </h1>
+      <p>
+        {{ .Params.post_teaser_copy }}
+      </p>
+      <p>
+        {{ .Permalink }}
+      </p>
     </div>
+    {{ end }}
   </div>
+  <div>
+    {{ .Content }}
+  </div>
+</div>
 {{ end }}

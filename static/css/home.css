@@ -12,3 +12,24 @@
   width: 100%;
   max-width: 600px;
 }
+
+.blog-post-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.blog-post-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+  width: 360px;
+}
+
+.blog-post-card p {
+  margin-top: 20px;
+}

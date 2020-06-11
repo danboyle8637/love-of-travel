@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Lover of Travel"
+metaDataFormat = "yaml"
 
 [params]
   customCSS = ["/css/global.css", "/css/header.css", "/css/home.css"]

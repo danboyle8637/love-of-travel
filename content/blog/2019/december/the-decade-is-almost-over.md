@@ -1,9 +1,9 @@
 ---
 feature_image: "/uploads/blog-post-solo-image-3.jpg"
 post_tags: ["Mountain Living"]
-post_teaser_copy: "A Western cold climate is dry. So how cold is cold when you don't have moisture in the air? I am going to tell you and you might not like what I have to say."
-publish_date: 2020-06-15T04:00:00Z
-title: "How Cold Is Cold In The Mountains?"
+post_teaser_copy: "Can you believe it? The decade is almost over. There is so much to get ready for this new one so let's talk about it."
+publish_date: 2019-12-15T04:00:00Z
+title: "The Decade is Almost Over"
 ---
 
 No cold is not as cold.
