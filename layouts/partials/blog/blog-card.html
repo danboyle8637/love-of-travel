@@ -1,1 +1,13 @@
-// Get the data from the page frontmatter. So you can use the page variables
+<div class="post-card-container">
+  <div class="post-card-feature-image-container">
+    <img src="{{ .Params.feature_image }}" alt="{{ .Params.feature_image_alt_tag }}" title="{{ .Params.feature_image_title_tag }}"/>
+    <div class="post-card-tag-container">
+      {{- partial "svgs/blog-tag-icon" . -}}
+    </div>
+  </div>
+  <div class="post-card-content">
+    <h3>{{ .Params.title }}</h3>
+    <p>{{ .Params.post_teaser_copy }}</p>
+    <a href="{{ .Permalink }}">Read More...</a>
+  </div>
+</div>

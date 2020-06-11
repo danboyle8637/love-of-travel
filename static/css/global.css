@@ -20,10 +20,22 @@ main {
   align-items: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
   color: #464646;
 }
 
 p {
+  margin: 0;
+  padding: 0;
   color: #464646;
+}
+
+img {
+  margin: 0;
+  padding: 0;
 }

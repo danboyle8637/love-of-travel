@@ -1,2 +1,2 @@
 {{ $headerJS := resources.Get "js/header.js" | resources.Minify }}
-<script src="{{ $headerJS }}" async></script>
+<script src="{{ $headerJS.Permalink }}" async></script>
