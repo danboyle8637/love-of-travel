@@ -111,3 +111,15 @@
 /* Above iPadPro */
 @media (min-width: 1100px) {
 }
+
+/* Above Laptop */
+@media (min-width: 1445px) {
+  .post-feature-image-container {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .post-feature-image {
+    border-radius: 5px;
+  }
+}
