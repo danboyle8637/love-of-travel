@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1 class="post-title-headline">{{ .Title }}</h1>
+  <div class="post-feature-image-container">
+    <img class="post-feature-image" src="{{ .Params.feature_image }}" alt="{{ .Params.feature_image_alt_tag }}"/>
+  </div>
+  <div class="post-container">
+    <div class="blog-content-container">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}
