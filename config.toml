@@ -8,6 +8,8 @@ metaDataFormat = "yaml"
   customJS = ["/js/header.js"]
 
 
+# Feature Image Dimesions: 1440x756
+
 # [[menu.main]]
 #   name = "Home"
 #   url = "/"
