@@ -1,5 +1,5 @@
 +++
-feature_image = "/uploads/blog-post-solo-image-6-1.jpg"
+feature_image = "/uploads/test-feature-image-2.jpg"
 feature_image_alt_tag = "Snowy mountains in the winter"
 feature_image_title_tag = "Snowy Mountains"
 post_tags = ["Mountain Living"]
@@ -8,7 +8,6 @@ publish_date = 2020-06-13T04:00:00Z
 title = "Should We Move To Durango?"
 
 +++
-
 Durango sounds like a pair of jeans.
 
 But apparently it's an amazing place to live.
