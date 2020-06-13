@@ -1,2 +1,6 @@
 {{ $headerJS := resources.Get "js/header.js" | resources.Minify }}
+{{ $contactJS := resources.Get "js/contact.js" | resources.Minify }}
+{{ $homeJS := resources.Get "js/home.js" | resources.Minify }}
 <script src="{{ $headerJS.Permalink }}" async></script>
+<script src="{{ $contactJS.Permalink }}" async></script>
+<script src="{{ $homeJS.Permalink }}" async></script>
