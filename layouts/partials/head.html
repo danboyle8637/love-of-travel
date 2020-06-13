@@ -10,7 +10,5 @@
     {{ end }}
     {{ .Site.Title }}
   </title>
-  {{ range $customCSS }}
-    <link rel="stylesheet" type="text/css" href="{{ . | relURL }}"/>
-  {{ end }}
+  {{- partial "linktags.html" . -}}
 </head>

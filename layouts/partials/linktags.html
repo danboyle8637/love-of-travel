@@ -1,0 +1,10 @@
+{{ $blogPostCSS := resources.Get "css/blog-post.css" | resources.Minify }}
+{{ $contactCSS := resources.Get "css/contact.css" | resources.Minify }}
+{{ $globalCSS := resources.Get "css/global.css" | resources.Minify }}
+{{ $headerCSS := resources.Get "css/header.css" | resources.Minify }}
+{{ $homeCSS := resources.Get "css/home.css" | resources.Minify }}
+<link rel="stylesheet" type="text/css" href="{{ $blogPostCSS.Permalink }}"/>
+<link rel="stylesheet" type="text/css" href="{{ $contactCSS.Permalink }}"/>
+<link rel="stylesheet" type="text/css" href="{{ $globalCSS.Permalink }}"/>
+<link rel="stylesheet" type="text/css" href="{{ $headerCSS.Permalink }}"/>
+<link rel="stylesheet" type="text/css" href="{{ $homeCSS.Permalink }}"/>
