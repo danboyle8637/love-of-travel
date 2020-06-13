@@ -8,6 +8,7 @@ publish_date = 2020-06-13T04:00:00Z
 title = "Should We Move To Durango?"
 
 +++
+
 Durango sounds like a pair of jeans.
 
 But apparently it's an amazing place to live.
@@ -40,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
-{{< calloutBoxGray >}}
+{{< calloutBoxWithButton >}}
 
 Sed viverra tellus in hac habitasse platea dictumst vestibulum. Dictum at tempor commodo ullamcorper a lacus. Est ullamcorper eget nulla facilisi etiam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Integer feugiat scelerisque varius morbi.
 
@@ -66,6 +67,8 @@ Egestas dui id ornare arcu odio ut. Phasellus egestas tellus rutrum tellus. Ac f
 Tellus id interdum velit laoreet id donec ultrices tincidunt. Ut sem viverra aliquet eget sit amet. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Hendrerit gravida rutrum quisque non tellus orci.
 
 Morbi tincidunt augue interdum velit euismod.
+
+{{< calloutBox >}}
 
 Amet consectetur adipiscing elit ut aliquam purus. Mattis nunc sed blandit libero. In hac habitasse platea dictumst. Euismod nisi porta lorem mollis aliquam ut porttitor leo. In hac habitasse platea dictumst quisque sagittis purus sit. Sem et tortor consequat id porta. Venenatis urna cursus eget nunc. Maecenas volutpat blandit aliquam etiam erat. Eu augue ut lectus arcu bibendum at varius. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet.
 

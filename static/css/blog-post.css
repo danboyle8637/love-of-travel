@@ -67,23 +67,52 @@
   margin-bottom: 0;
 }
 
-.callout-box-gray-container {
+.callout-box-default-container {
   margin: 70px 0 70px 0;
   padding: 12px;
-  background: #dddddd;
+  background-color: #f5f1ed;
   border-radius: 6px;
   box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.5);
 }
 
-.callout-box-gray-content-container {
+.callout-box-default-content-container {
   padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  gap: 12px;
   border: 2px solid #cccccc;
   border-radius: 4px;
 }
 
-.callout-box-gray-content-container h4 {
-  margin-bottom: 20px;
+.callout-box-default-content-container h4 {
   font-size: 34px;
+}
+
+.callout-box-message {
+  justify-self: center;
+  width: 90%;
+}
+
+.callout-box-message p {
+  font-size: 15px;
+}
+
+.callout-box-button {
+  justify-self: center;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f8f8f8;
+  background-color: #3d6f44;
+  border-radius: 16px;
+  width: 245px;
+  height: 48px;
+  transition: background-color 300ms ease-in-out;
 }
 
 /* Above Mobile */
