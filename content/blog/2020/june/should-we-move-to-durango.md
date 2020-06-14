@@ -9,6 +9,7 @@ tiny_feature_image = "/uploads/fall-post-feature-image-1440x756-tiny.jpg"
 title = "Don't Miss Fall In The Mountains"
 
 +++
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
@@ -38,6 +39,12 @@ Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidu
 {{< calloutBoxWithButton >}}
 
 Sed viverra tellus in hac habitasse platea dictumst vestibulum. Dictum at tempor commodo ullamcorper a lacus. Est ullamcorper eget nulla facilisi etiam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Integer feugiat scelerisque varius morbi.
+
+{{< cairnTip >}}
+{{< p "This is part of the tip one." >}}
+{{< p "This is part of the tip two." >}}
+{{< p "This is part of the tip three." >}}
+{{</ cairnTip >}}
 
 Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Suspendisse ultrices gravida dictum fusce ut placerat. Metus aliquam eleifend mi in nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Amet cursus sit amet dictum sit amet justo donec enim. Est lorem ipsum dolor sit amet.
 
