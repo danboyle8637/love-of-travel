@@ -5,6 +5,7 @@ feature_image_title_tag = "Beautiful Fall Colored Mountains"
 post_tags = ["Mountain Living"]
 post_teaser_copy = "One of the most breath taking experiences you can have is see fall in the mountains. And Tennessee has some of the best locations for viewing."
 publish_date = 2020-06-13T04:00:00Z
+tiny_feature_image = "/uploads/fall-post-feature-image-1440x756-tiny.jpg"
 title = "Don't Miss Fall In The Mountains"
 
 +++
