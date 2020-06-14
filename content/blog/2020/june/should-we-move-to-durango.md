@@ -12,11 +12,7 @@ title = "Don't Miss Fall In The Mountains"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
-{{< cairnTip >}}
-If I only want one line with a short tip.
-
-This is another line and might add in other p tags
-{{</ cairnTip >}}
+{{< cairnTip >}}If I only want one line with a short tip.{{</ cairnTip >}}
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
@@ -32,17 +28,18 @@ Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidu
 #### Headline 4
 
 {{< bulletList >}}
-{{< unorderedListItem text="This is bullet one" >}}
-{{< unorderedListItem text="This is bullet two" >}}
-{{< unorderedListItem text="This is bullet three" >}}
-{{< unorderedListItem text="This is bullet four" >}}
+{{< bullet text="Bullet one" >}}
 {{</ bulletList >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
-{{< calloutBoxWithButton >}}
+{{< calloutBox headline="Headline Callout" buttonText="Checkout These Shoes!" >}}
+This is my callout box.
+
+You want to write stuff here and make sure they know about it.
+{{</ calloutBox >}}
 
 Sed viverra tellus in hac habitasse platea dictumst vestibulum. Dictum at tempor commodo ullamcorper a lacus. Est ullamcorper eget nulla facilisi etiam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Integer feugiat scelerisque varius morbi.
 
@@ -56,8 +53,7 @@ This is part of the tip three and both other tips suck I'm the tip you want to p
 
 Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Suspendisse ultrices gravida dictum fusce ut placerat. Metus aliquam eleifend mi in nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Amet cursus sit amet dictum sit amet justo donec enim. Est lorem ipsum dolor sit amet.
 
-{{< cairnTip >}}
-This is part of the tip one and you can do some great things with this tip.
+{{< cairnTip >}}This is part of the tip one and you can do some great things with this tip.
 
 This is part of the tip two and you can probably do better things with this tip.
 
@@ -67,16 +63,15 @@ This is part of the tip one and you can do some great things with this tip.
 
 This is part of the tip two and you can probably do better things with this tip.
 
-This is part of the tip three and both other tips suck I'm the tip you want to pay attention to.
-{{</ cairnTip >}}
+This is part of the tip three and both other tips suck I'm the tip you want to pay attention to.{{</ cairnTip >}}
 
 Imperdiet proin fermentum leo vel orci. Congue mauris rhoncus aenean vel elit scelerisque. Duis at tellus at urna condimentum mattis pellentesque id nibh. Etiam sit amet nisl purus in mollis nunc. Aliquet sagittis id consectetur purus ut faucibus pulvinar.
 
 {{< bulletList >}}
-{{< unorderedListItem text="This is bullet one" >}}
-{{< unorderedListItem text="This is bullet two" >}}
-{{< unorderedListItem text="This is bullet three" >}}
-{{< unorderedListItem text="This is bullet four" >}}
+{{< bullet text="This is bullet one" >}}
+{{< bullet text="This is bullet two" >}}
+{{< bullet text="This is bullet three" >}}
+{{< bullet text="This is bullet four" >}}
 {{</ bulletList >}}
 
 Et egestas quis ipsum suspendisse. Diam donec adipiscing tristique risus nec feugiat in fermentum. At quis risus sed vulputate odio ut enim blandit. In fermentum et sollicitudin ac. Dignissim cras tincidunt lobortis feugiat vivamus at. Lacinia at quis risus sed vulputate. Metus vulputate eu scelerisque felis imperdiet proin. Nibh tellus molestie nunc non blandit.
@@ -91,7 +86,11 @@ Tellus id interdum velit laoreet id donec ultrices tincidunt. Ut sem viverra ali
 
 Morbi tincidunt augue interdum velit euismod.
 
-{{< calloutBox >}}
+{{< calloutBox headline="Headline Callout" >}}
+This is my callout box.
+
+You want to write stuff here and make sure they know about it.
+{{</ calloutBox >}}
 
 Amet consectetur adipiscing elit ut aliquam purus. Mattis nunc sed blandit libero. In hac habitasse platea dictumst. Euismod nisi porta lorem mollis aliquam ut porttitor leo. In hac habitasse platea dictumst quisque sagittis purus sit. Sem et tortor consequat id porta. Venenatis urna cursus eget nunc. Maecenas volutpat blandit aliquam etiam erat. Eu augue ut lectus arcu bibendum at varius. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet.
 

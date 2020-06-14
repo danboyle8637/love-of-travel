@@ -1,19 +1,14 @@
+{{- $headline := cond (.IsNamedParams) (.Get "headline") (.Get 0) -}}
+{{- $buttonText := cond (.IsNamedParams) (.Get "buttonText") (.Get 0) -}}
+
 <div class="callout-box-default-container">
   <div class="callout-box-default-content-container">
-    <h4>Headline</h4>
+    <h4>{{- $headline -}}</h4>
     <div class="callout-box-message">
-      <p>
-        This is some callout body copy that will call attention to different
-                things.
-      </p>
-      <p>
-        This is some callout body copy that will call attention to different
-                things.
-      </p>
-      <p>
-        This is some callout body copy that will call attention to different
-                things.
-      </p>
+      {{ safeHTML .Inner | markdownify }}
     </div>
+    {{- with $buttonText -}}
+      <a class="callout-box-button" href="#">{{- $buttonText -}}</a>
+    {{- end -}}
   </div>
 </div>

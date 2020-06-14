@@ -45,16 +45,7 @@
   margin: 60px 0;
 }
 
-.blog-content-container ul {
-  list-style: none;
-}
-
-.blog-content-container ol li {
-  margin-bottom: 12px;
-  font-size: 18px;
-}
-
-.unordered-list-item {
+.blog-content-bullet-list li {
   margin-bottom: 12px;
   font-size: 18px;
   display: grid;
@@ -63,8 +54,17 @@
   align-items: center;
 }
 
-.unordered-list-item:last-child {
+.blog-content-bullet-list li:last-child {
   margin-bottom: 0;
+}
+
+.blog-content-container ul {
+  list-style: none;
+}
+
+.blog-content-container ol li {
+  margin-bottom: 12px;
+  font-size: 18px;
 }
 
 .callout-box-default-container {
