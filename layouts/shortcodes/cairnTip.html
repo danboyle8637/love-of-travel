@@ -2,15 +2,15 @@
   {{- template "cairnTip" . -}}
 {{- end -}}
 {{- define "cairnTip" -}}
-<div class="cairn-tip-container">
-  <div class="cairn-tip-content-container">
-    <div class="cairn-rock-container">
-      {{- partial "svgs/cairn-rock-icon" . -}}
-      <p>Find Your Way</p>
-    </div>
-    <div class="cairn-tip-text">
-      {{ safeHTML .Inner | markdownify }}
+  <div class="cairn-tip-container">
+    <div class="cairn-tip-content-container">
+      <div class="cairn-rock-container">
+        {{- partial "svgs/cairn-rock-icon" . -}}
+        <p>Find Your Way</p>
+      </div>
+      <div class="cairn-tip-text">
+        {{ safeHTML .Inner | markdownify }}
+      </div>
     </div>
   </div>
-</div>
 {{ end }}
