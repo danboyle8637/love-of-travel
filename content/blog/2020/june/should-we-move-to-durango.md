@@ -1,23 +1,16 @@
 +++
-feature_image = "/uploads/test-feature-image-2.jpg"
-feature_image_alt_tag = "Snowy mountains in the winter"
-feature_image_title_tag = "Snowy Mountains"
+feature_image = "/uploads/fall-post-feature-image-1000x525.jpg"
+feature_image_alt_tag = "Fall trees in the mountain valley"
+feature_image_title_tag = "Beautiful Fall Colored Mountains"
 post_tags = ["Mountain Living"]
-post_teaser_copy = "Moving is on many peoples minds. The mountains sound pretty good and I am going to tell you NOT to move to Durango, CO."
+post_teaser_copy = "One of the most breath taking experiences you can have is see fall in the mountains. And Tennessee has some of the best locations for viewing."
 publish_date = 2020-06-13T04:00:00Z
-title = "Should We Move To Durango?"
+title = "Don't Miss Fall In The Mountains"
 
 +++
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
-Durango sounds like a pair of jeans.
-
-But apparently it's an amazing place to live.
-
-But don't move there.
-
-Why?
-
-Because I might move there and I don't want it to become too popular.
+Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
 1. Reason one
 2. Reason two
