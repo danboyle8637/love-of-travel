@@ -9,13 +9,14 @@ tiny_feature_image = "/uploads/fall-post-feature-image-1440x756-tiny.jpg"
 title = "Don't Miss Fall In The Mountains"
 
 +++
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
 {{< cairnTip >}}
+If I only want one line with a short tip.
 
-This is a tip that you can write in and it will make the tip box.
-
-{{< /cairnTip >}}
+This is another line and might add in other p tags
+{{</ cairnTip >}}
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
@@ -54,6 +55,20 @@ This is part of the tip three and both other tips suck I'm the tip you want to p
 {{</ cairnTip >}}
 
 Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Suspendisse ultrices gravida dictum fusce ut placerat. Metus aliquam eleifend mi in nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Amet cursus sit amet dictum sit amet justo donec enim. Est lorem ipsum dolor sit amet.
+
+{{< cairnTip >}}
+This is part of the tip one and you can do some great things with this tip.
+
+This is part of the tip two and you can probably do better things with this tip.
+
+This is part of the tip three and both other tips suck I'm the tip you want to pay attention to.
+
+This is part of the tip one and you can do some great things with this tip.
+
+This is part of the tip two and you can probably do better things with this tip.
+
+This is part of the tip three and both other tips suck I'm the tip you want to pay attention to.
+{{</ cairnTip >}}
 
 Imperdiet proin fermentum leo vel orci. Congue mauris rhoncus aenean vel elit scelerisque. Duis at tellus at urna condimentum mattis pellentesque id nibh. Etiam sit amet nisl purus in mollis nunc. Aliquet sagittis id consectetur purus ut faucibus pulvinar.
 
