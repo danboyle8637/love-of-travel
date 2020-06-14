@@ -11,13 +11,7 @@ title = "Don't Miss Fall In The Mountains"
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
-{{% cairnTip %}}
-
-This is a tip and it's also a paragraph.
-
-This is hopefully going to be a new paragraph and a part of the same tip. 
-
-{{% /cairnTip %}}
+{{% cairnTip %}} Body text of tip {{% /cairnTip %}}
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
