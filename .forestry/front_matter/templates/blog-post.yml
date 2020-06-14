@@ -32,6 +32,12 @@ fields:
   label: Feature Image Alt Tag
   description: An alt tag tells people with screen readers what the image is so they
     can get some context.
+- name: tiny_feature_image
+  type: file
+  config:
+    maxSize: 64
+  label: Tiny Feature Image
+  description: This is just a test at the moment.
 - name: feature_image_title_tag
   type: text
   config:
