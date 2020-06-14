@@ -41,9 +41,11 @@ Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidu
 Sed viverra tellus in hac habitasse platea dictumst vestibulum. Dictum at tempor commodo ullamcorper a lacus. Est ullamcorper eget nulla facilisi etiam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Integer feugiat scelerisque varius morbi.
 
 {{< cairnTip >}}
-{{< p "This is part of the tip one and you can do some great things with this tip." >}}
-{{< p "This is part of the tip two and you can probably do better things with this tip." >}}
-{{< p "This is part of the tip three and both other tips suck I'm the tip you want to pay attention to." >}}
+This is part of the tip one and you can do some great things with this tip.
+
+This is part of the tip two and you can probably do better things with this tip.
+
+This is part of the tip three and both other tips suck I'm the tip you want to pay attention to.
 {{</ cairnTip >}}
 
 Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Suspendisse ultrices gravida dictum fusce ut placerat. Metus aliquam eleifend mi in nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Amet cursus sit amet dictum sit amet justo donec enim. Est lorem ipsum dolor sit amet.
