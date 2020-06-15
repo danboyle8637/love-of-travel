@@ -1,14 +1,16 @@
+{{ $tinyFeatureImage := .Params.tiny_feature_image }}
+{{ $featureImage := .Params.feature_image }}
+{{ $altTag := .Params.feature_image_alt_tag }}
+{{ $titleTag := .Params.feature_image_tital_tag }}
+
 <a class="post-card-link" href="{{ .Permalink }}">
   <div class="post-card-container">
     <div class="post-card-feature-image-container">
-      <img
-        src="{{ .Params.feature_image }}"
-        alt="{{ .Params.feature_image_alt_tag }}"
-        title="{{ .Params.feature_image_title_tag }}"
-      />
+      {{- partial "blog/blog-feature-image.html" (dict "src" $tinyFeatureImage "dataSrc" $featureImage "altTag" $altTag "titleTag" $titleTag) -}}
       <div class="post-card-tag-container">
-        {{- partial "svgs/blog-tag-icon" . -}} {{ range .Params.post_tags }}
-        <p class="blog-tag-label">#{{ . }}</p>
+        {{- partial "svgs/blog-tag-icon" . -}}
+        {{ range .Params.post_tags }}
+          <p class="blog-tag-label">#{{ . }}</p>
         {{ end }}
       </div>
     </div>

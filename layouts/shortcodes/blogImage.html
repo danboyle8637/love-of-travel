@@ -1,4 +1,4 @@
 <picture>
-  <source media="(min-width: 800px)" srcset="{{ with .Get srcset }} {{ . }} {{ end }}">
-  <img alt="" data-src="" src="">
+  <source media="(min-width: 800px)" srcset="{{ with .Get "srcset" }} {{ . }} {{ end }}">
+  <img class="tiny-image" alt="{{ .Get "altTag" }}" title="{{ .Get "titleTag" }}" data-src="{{ .Get "dataSrc" }}" src="{{ .Get "src" }}">
 </picture>

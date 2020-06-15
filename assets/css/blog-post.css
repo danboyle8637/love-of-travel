@@ -6,15 +6,25 @@
 }
 
 .post-feature-image-container {
+  position: relative;
   margin: 30px 0 0 0;
   padding: 12px 0;
+  padding-top: calc(21 / 40 * 100%);
   background: rgba(0, 0, 0, 0.2);
   line-height: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-.post-feature-image {
+.post-feature-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  max-width: 1400px;
+  object-fit: cover;
+  filter: blur(6px);
+  transition: filter 1000ms ease-in-out;
 }
 
 .post-container {

@@ -45,16 +45,25 @@
 
 .post-card-feature-image-container {
   position: relative;
+  padding-top: calc(21 / 40 * 100%);
   border-radius: 16px 16px 0 0;
   object-fit: cover;
   width: 100%;
   line-height: 0;
+  overflow: hidden;
 }
 
 .post-card-feature-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   border-radius: 16px 16px 0 0;
   width: 100%;
   height: auto;
+  object-fit: cover;
+  filter: blur(6px);
+  transition: filter 1000ms ease-in-out;
 }
 
 .post-card-tag-container {

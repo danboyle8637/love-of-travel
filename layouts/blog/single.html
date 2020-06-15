@@ -1,7 +1,12 @@
 {{ define "main" }}
+  {{ $tinyFeatureImage := .Params.tiny_feature_image }}
+  {{ $featureImage := .Params.feature_image }}
+  {{ $altTag := .Params.feature_image_alt_tag }}
+  {{ $titleTag := .Params.feature_image_tital_tag }}
+
   <h1 class="post-title-headline">{{ .Title }}</h1>
   <div class="post-feature-image-container">
-    <img class="post-feature-image" src="{{ .Params.feature_image }}" alt="{{ .Params.feature_image_alt_tag }}"/>
+    {{- partial "blog/blog-feature-image.html" (dict "src" $tinyFeatureImage "dataSrc" $featureImage "altTag" $altTag "titleTag" $titleTag) -}}
   </div>
   <div class="post-container">
     <div class="blog-content-container">
