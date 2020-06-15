@@ -9,6 +9,7 @@ tiny_feature_image = "/uploads/fall-post-feature-image-1440x756-tiny.jpg"
 title = "Don't Miss Fall In The Mountains"
 
 +++
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet nibh praesent tristique magna sit amet purus. Orci dapibus ultrices in iaculis nunc sed.
 
 {{< cairnTip >}}
@@ -21,7 +22,7 @@ Now it will probably shange?
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
-![](/uploads/inpost-image2-600x480.jpg)
+{{< blogImage srcSet="/uploads/inpost-image2-1000x800.jpg" src="/uploads/inpost-image2-1000x800-tiny.jpg" dataSrc="/uploads/inpost-image2-600x480.jpg" altTag="This is the alt tag" titleTag="This is the title tag" >}}
 
 1. Reason one
 2. Reason two

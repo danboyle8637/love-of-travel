@@ -83,6 +83,36 @@
   color: #484848;
 }
 
+.blog-picture-container {
+  position: relative;
+  padding-top: calc(20 / 25 * 100%);
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog-picture-container source {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(6px);
+  transition: filter 1000ms ease-in-out;
+}
+
+.blog-picture-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(6px);
+  transition: filter 1000ms ease-in-out;
+}
+
+/********** Callout Box Card **********/
 .callout-box-default-container {
   margin: 70px 0 70px 0;
   padding: 12px;
@@ -131,6 +161,7 @@
   transition: background-color 300ms ease-in-out;
 }
 
+/********** Cairn Tip Card **********/
 .cairn-tip-container {
   margin: 70px 0 70px 0;
   padding: 12px;
