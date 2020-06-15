@@ -21,9 +21,7 @@ Now it will probably shange?
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
-![Alt text](/uploads/blog-post-solo-image-6-1.jpg "Title text")
-
-![Alt text](/uploads/inpost-image1-600x480.jpg "Title text")
+![](/uploads/inpost-image1-600x480.jpg)
 
 1. Reason one
 2. Reason two
