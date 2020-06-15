@@ -48,6 +48,7 @@
 .blog-content-bullet-list li {
   margin-bottom: 12px;
   font-size: 18px;
+  color: #484848;
   display: grid;
   grid-template-columns: 14px 1fr;
   gap: 8px;
@@ -62,9 +63,14 @@
   list-style: none;
 }
 
+.blog-content-container ol {
+  margin: 60px 0;
+}
+
 .blog-content-container ol li {
   margin-bottom: 12px;
   font-size: 18px;
+  color: #484848;
 }
 
 .callout-box-default-container {
