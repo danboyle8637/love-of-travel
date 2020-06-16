@@ -3,10 +3,7 @@ const imageSourceSet = document.querySelectorAll(".blog-post-inline-srcset");
 const blogPostImage = document.querySelectorAll(".blog-post-inline-img");
 
 const postImagesArray = Array.from(blogPostImage);
-const postImage = postImagesArray[0];
-
 const imageSourceSetArray = Array.from(imageSourceSet);
-const sourceImage = imageSourceSetArray[0];
 
 blurUpImage(postFeatureImage);
 
@@ -25,9 +22,6 @@ const observerCallBack = (entries) => {
       blurUpImage(entry.target);
       // UNOBSERVER THE ELEMENT
       imageObserver.unobserve(entry.target);
-      //console.log(entry.target);
-      console.log("Run The Blur Up");
-      console.log("Unobserve the element");
     } else {
       // DO NOTHING
     }
