@@ -1,11 +1,6 @@
 const tagIcons = document.querySelectorAll(".post-card-tag-container");
 const cardImages = document.querySelectorAll(".blog-feature-image");
 
-const blurUpImage = (imgElement) => {
-  imgElement.src = imgElement.dataset.src;
-  imgElement.style.filter = "blur(0px)";
-};
-
 if (tagIcons) {
   const tagArray = Array.from(tagIcons);
 
