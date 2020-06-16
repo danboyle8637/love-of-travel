@@ -9,7 +9,6 @@ feature_image_alt_tag: A wave running up the beach with the sun setting in the b
 feature_image_title_tag: A calming ocean
 post_teaser_copy: The ocean is amazing. It can be totally calming and revive your
   spirit. And then it can be violent and make you feel like you will drown.
-draft: true
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet sit amet cursus sit amet dictum. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. In fermentum et sollicitudin ac. Gravida neque convallis a cras semper. Viverra accumsan in nisl nisi scelerisque eu. Nulla aliquet enim tortor at auctor urna nunc id.
@@ -37,19 +36,23 @@ Non sodales neque sodales ut etiam sit amet nisl purus. Etiam dignissim diam qui
 
 ### This is a Headline 3
 
-Turpis nunc eget lorem dolor sed viverra ipsum nunc. Pulvinar sapien et ligula ullamcorper. Vulputate sapien nec sagittis aliquam. Donec massa sapien faucibus et molestie ac feugiat. Suspendisse sed nisi lacus sed viverra tellus in hac. 
+Turpis nunc eget lorem dolor sed viverra ipsum nunc. Pulvinar sapien et ligula ullamcorper. Vulputate sapien nec sagittis aliquam. Donec massa sapien faucibus et molestie ac feugiat. Suspendisse sed nisi lacus sed viverra tellus in hac.
 
-Arcu risus quis varius quam quisque id diam vel quam. Tellus in hac habitasse platea dictumst vestibulum. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Integer enim neque volutpat ac tincidunt vitae. Sed blandit libero volutpat sed cras ornare arcu. Elit at imperdiet dui accumsan. Sit amet aliquam id diam maecenas ultricies mi. Laoreet id donec ultrices tincidunt arcu. 
+Arcu risus quis varius quam quisque id diam vel quam. Tellus in hac habitasse platea dictumst vestibulum. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Integer enim neque volutpat ac tincidunt vitae. Sed blandit libero volutpat sed cras ornare arcu. Elit at imperdiet dui accumsan. Sit amet aliquam id diam maecenas ultricies mi. Laoreet id donec ultrices tincidunt arcu.
 
 At ultrices mi tempus imperdiet. Odio aenean sed adipiscing diam donec.
 
-Mollis nunc sed id semper risus in hendrerit gravida. Nulla facilisi etiam dignissim diam. Vel pretium lectus quam id leo in vitae. Varius duis at consectetur lorem donec massa. 
+{{< blogImage src="/uploads/inpost-image2-600x480-tiny.jpg" dataSrc="/uploads/inpost-image2-600x480-1.jpg" srcSet="/uploads/inpost-image2-600x480-tiny.jpg" dataSrcSet="/uploads/inpost-image3-1000x800-1.jpg" altTag="A crazy big wave crashing during some poor weather" titleTag="The violent ocean" >}}
 
-Eu sem integer vitae justo eget. Placerat in egestas erat imperdiet sed euismod. In arcu cursus euismod quis viverra nibh cras pulvinar. Nunc non blandit massa enim nec dui nunc mattis. Vel turpis nunc eget lorem dolor. 
+Mollis nunc sed id semper risus in hendrerit gravida. Nulla facilisi etiam dignissim diam. Vel pretium lectus quam id leo in vitae. Varius duis at consectetur lorem donec massa.
+
+Eu sem integer vitae justo eget. Placerat in egestas erat imperdiet sed euismod. In arcu cursus euismod quis viverra nibh cras pulvinar. Nunc non blandit massa enim nec dui nunc mattis. Vel turpis nunc eget lorem dolor.
 
 ### This is a Headline 3
 
-Sapien pellentesque habitant morbi tristique senectus. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Etiam erat velit scelerisque in dictum. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Est sit amet facilisis magna etiam tempor orci eu lobortis. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Aliquam vestibulum morbi blandit cursus risus at. 
+Sapien pellentesque habitant morbi tristique senectus. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Etiam erat velit scelerisque in dictum. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Est sit amet facilisis magna etiam tempor orci eu lobortis. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Aliquam vestibulum morbi blandit cursus risus at.
+
+{{< blogImage src="/uploads/inpost-image3-1000x800-tiny.jpg" dataSrc="/uploads/inpost-image3-600x480-1.jpg" srcSet="/uploads/inpost-image3-1000x800-tiny.jpg" dataSrcSet="/uploads/inpost-image3-1000x800-1.jpg" altTag="A surfboard laying on the beach" titleTag="The tool to tame the ocean" >}}
 
 {{< cairnTip >}}
 
@@ -61,10 +64,10 @@ They have a great selection and really good price. Plus tell Jerry I send you an
 
 Egestas dui id ornare arcu odio. Sit amet volutpat consequat mauris. Commodo elit at imperdiet dui accumsan. Nunc vel risus commodo viverra maecenas accumsan lacus.
 
-Phasellus vestibulum lorem sed risus ultricies tristique nulla. Diam maecenas sed enim ut. Turpis egestas integer eget aliquet nibh praesent tristique magna. Auctor augue mauris augue neque gravida. 
+Phasellus vestibulum lorem sed risus ultricies tristique nulla. Diam maecenas sed enim ut. Turpis egestas integer eget aliquet nibh praesent tristique magna. Auctor augue mauris augue neque gravida.
 
-At in tellus integer feugiat. Faucibus turpis in eu mi bibendum neque. Odio eu feugiat pretium nibh ipsum. Semper auctor neque vitae tempus quam pellentesque. Sed vulputate mi sit amet. Turpis cursus in hac habitasse platea dictumst quisque. Adipiscing elit pellentesque habitant morbi tristique. 
+At in tellus integer feugiat. Faucibus turpis in eu mi bibendum neque. Odio eu feugiat pretium nibh ipsum. Semper auctor neque vitae tempus quam pellentesque. Sed vulputate mi sit amet. Turpis cursus in hac habitasse platea dictumst quisque. Adipiscing elit pellentesque habitant morbi tristique.
 
-Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Enim neque volutpat ac tincidunt. Senectus et netus et malesuada. Aliquam ultrices sagittis orci a. Vitae congue mauris rhoncus aenean vel. Convallis tellus id interdum velit laoreet. 
+Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Enim neque volutpat ac tincidunt. Senectus et netus et malesuada. Aliquam ultrices sagittis orci a. Vitae congue mauris rhoncus aenean vel. Convallis tellus id interdum velit laoreet.
 
 Massa vitae tortor condimentum lacinia quis.
