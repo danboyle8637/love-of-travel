@@ -2,7 +2,18 @@
 {{ $contactJS := resources.Get "js/contact.js" | resources.Minify }}
 {{ $homeJS := resources.Get "js/home.js" | resources.Minify }}
 {{ $imageJS := resources.Get "js/images.js" | resources.Minify }}
+
+
+{{ if eq .Section "blog" }}
+  <script src="{{ $imageJS.Permalink }}" async></script>
+{{ end }}
+
+{{ if eq .Section "" }}
+  <script src="{{ $homeJS.Permalink }}" async></script>
+{{ end }}
+
+{{ if in .File.Dir "contact" }}
+  <script src="{{ $contactJS.Permalink }}" async></script>
+{{ end }}
+
 <script src="{{ $headerJS.Permalink }}" async></script>
-<script src="{{ $contactJS.Permalink }}" async></script>
-<script src="{{ $homeJS.Permalink }}" async></script>
-<script src="{{ $imageJS.Permalink }}" async></script>

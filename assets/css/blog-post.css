@@ -90,7 +90,7 @@
   overflow: hidden;
 }
 
-.blog-picture-container source {
+.blog-post-inline-srcset {
   position: absolute;
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@
   transition: filter 1000ms ease-in-out;
 }
 
-.blog-picture-container img {
+.blog-post-inline-img {
   position: absolute;
   top: 0;
   left: 0;

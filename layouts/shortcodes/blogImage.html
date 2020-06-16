@@ -1,4 +1,7 @@
-<picture class="blog-picture-container">
-  <source class="blog-post-inline-srcset" media="(min-width: 800px)" srcset="{{ with .Get "srcSet" }} {{ . }} {{ end }}">
-  <img class="blog-post-inline-image" alt="{{ .Get "altTag" }}" title="{{ .Get "titleTag" }}" data-src="{{ .Get "dataSrc" }}" src="{{ .Get "src" }}">
-</picture>
+<div class="blog-picture-container">
+    <picture>
+      <source class="blog-post-inline-srcset" media="(min-width: 800px)" srcset="{{ with .Get "srcSet" }} {{ . }} {{ end }}">
+      <img class="blog-post-inline-img" alt="{{ .Get "altTag" }}" title="{{ .Get "titleTag" }}" data-src="{{ .Get "dataSrc" }}" src="{{ .Get "src" }}">
+    </picture>
+  </div>
+</p>
