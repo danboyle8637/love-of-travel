@@ -60,6 +60,8 @@ This is part of the tip three and both other tips suck I'm the tip you want to p
 
 Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Suspendisse ultrices gravida dictum fusce ut placerat. Metus aliquam eleifend mi in nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Amet cursus sit amet dictum sit amet justo donec enim. Est lorem ipsum dolor sit amet.
 
+{{< blogImage src="/uploads/inpost-image3-600x480-tiny.jpg" dataSrc="/uploads/inpost-image3-600x480.jpg" srcSet="/uploads/inpost-image3-600x480-tiny.jpg" dataSrcSet="/uploads/inpost-image3-1000x800.jpg" altTag="This is my custom alt tag for my second time" titleTag="Look up to the trees" >}}
+
 {{< cairnTip >}}This is part of the tip one and you can do some great things with this tip.
 
 This is part of the tip two and you can probably do better things with this tip.
@@ -86,6 +88,8 @@ Et egestas quis ipsum suspendisse. Diam donec adipiscing tristique risus nec feu
 Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Urna molestie at elementum eu facilisis. Orci nulla pellentesque dignissim enim sit amet. Feugiat pretium nibh ipsum consequat nisl vel. Massa tincidunt dui ut ornare lectus sit.
 
 ### Headline 3
+
+{{< blogImage src="/uploads/inpost-image1-600x480-tiny.jpg" dataSrc="/uploads/inpost-image1-600x480.jpg" srcSet="/uploads/inpost-image1-600x480-tiny.jpg" dataSrcSet="/uploads/inpost-image1-1000x800.jpg" altTag="Holding up a leaf and admiring it's deep red color" titleTag="Simple beauty in a single leaf" >}}
 
 Egestas dui id ornare arcu odio ut. Phasellus egestas tellus rutrum tellus. Ac feugiat sed lectus vestibulum mattis ullamcorper. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Amet massa vitae tortor condimentum lacinia quis vel.
 
