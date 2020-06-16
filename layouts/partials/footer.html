@@ -1,3 +1,7 @@
 <footer>
-  <h4>Footer</h4>
+  <div class="footer-logo">
+    {{- partial "svgs/logo.html" (dict "letterFill" "#f8f8f8") -}}
+  </div>
+  {{- partial "menus/footer-menu.html" . -}}
+  {{- partial "menus/footer-legal-menu.html" . -}}
 </footer>

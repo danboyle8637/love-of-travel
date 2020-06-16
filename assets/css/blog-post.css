@@ -5,13 +5,17 @@
   color: #303030;
 }
 
+.feature-image-container {
+  width: 100%;
+  max-width: 1440px;
+}
+
 .post-feature-image-container {
   position: relative;
   margin: 30px 0 0 0;
-  padding: 12px 0;
+  padding: 0 0 12px 0;
   padding-top: calc(21 / 40 * 100%);
   background: rgba(0, 0, 0, 0.2);
-  line-height: 0;
   width: 100%;
   overflow: hidden;
 }
@@ -238,11 +242,10 @@
 /* Above Laptop */
 @media (min-width: 1445px) {
   .post-feature-image-container {
-    padding: 12px;
     border-radius: 8px;
   }
 
   .post-feature-image {
-    border-radius: 5px;
+    border-radius: 8px;
   }
 }

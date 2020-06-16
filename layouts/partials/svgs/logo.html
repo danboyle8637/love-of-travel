@@ -1,62 +1,19 @@
-<div class="home-logo">
-  <svg
-    id="lover-of-travel-main-logo"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 473.2 104.66"
-  >
-    <path
-      id="mountains"
-      d="M301.15 128L290 144.88l-28.67-43.42-.05.09-.06-.09L211 190h131.08zm0 30.14L290 174.24l-28.77-41.81-.1-14.23.06.09v-.07.07l.05-.09L290 161.63l11.15-16.88 23.78 36z"
-      transform="translate(-12.98 -101.46)"
-      fill="#333"
-      opacity=".24"
-    />
-    <path
-      d="M77.82 137.74a29.56 29.56 0 1029.56 29.56 29.56 29.56 0 00-29.56-29.56zm0 52.4a22.84 22.84 0 1122.84-22.84 22.85 22.85 0 01-22.84 22.84z"
-      transform="translate(-12.98 -101.46)"
-      fill="#3d6f44"
-    />
-    <path
-      d="M241.28 165.72a12.11 12.11 0 1012.1 12.11 12.11 12.11 0 00-12.1-12.11zm0 21.46a9.36 9.36 0 119.35-9.35 9.35 9.35 0 01-9.35 9.35z"
-      transform="translate(-12.98 -101.46)"
-      fill="#bd4262"
-    />
-    <text
-      transform="translate(0 88.47)"
-      font-size="59.74"
-      fill="#333"
-      font-family="Roboto-Bold, Roboto"
-      font-weight="700"
-    >
-      L
-    </text>
-    <text
-      transform="translate(97.92 88.47)"
-      font-size="59.74"
-      fill="#333"
-      font-family="Roboto-Bold, Roboto"
-      font-weight="700"
-    >
-      VER
-    </text>
-    <text
-      transform="translate(240.4 87.07)"
-      font-size="30.42"
-      fill="#333"
-      font-family="Roboto-Regular, Roboto"
-    >
-      F
-    </text>
-    <text
-      transform="translate(255.15 88.47)"
-      font-size="59.74"
-      fill="#333"
-      font-family="Roboto-Bold, Roboto"
-      font-weight="700"
-    >
-      TR
-      <tspan x="75.09" y="0" letter-spacing="-.04em">A</tspan>
-      <tspan x="113.04" y="0" letter-spacing="0em">VEL</tspan>
-    </text>
-  </svg>
-</div>
+<svg id="lover-of-travel-main-logo" viewbox="0 0 473.2 104.66" xmlns="http://www.w3.org/2000/svg">
+  <path id="mountains" d="M301.15 128L290 144.88l-28.67-43.42-.05.09-.06-.09L211 190h131.08zm0 30.14L290 174.24l-28.77-41.81-.1-14.23.06.09v-.07.07l.05-.09L290 161.63l11.15-16.88 23.78 36z" transform="translate(-12.98 -101.46)" fill="{{ with .letterFill }} {{ . }} {{ else }} #333 {{ end }}" opacity=".24"/>
+  <path d="M77.82 137.74a29.56 29.56 0 1029.56 29.56 29.56 29.56 0 00-29.56-29.56zm0 52.4a22.84 22.84 0 1122.84-22.84 22.85 22.85 0 01-22.84 22.84z" fill="#3d6f44" transform="translate(-12.98 -101.46)"/>
+  <path d="M241.28 165.72a12.11 12.11 0 1012.1 12.11 12.11 12.11 0 00-12.1-12.11zm0 21.46a9.36 9.36 0 119.35-9.35 9.35 9.35 0 01-9.35 9.35z" fill="#bd4262" transform="translate(-12.98 -101.46)"/>
+  <text fill="{{ with .letterFill }} {{ . }} {{ else }} #333 {{ end }}" font-family="Roboto-Bold, Roboto" font-size="59.74" font-weight="700" transform="translate(0 88.47)">
+    L
+  </text>
+  <text fill="{{ with .letterFill }} {{ . }} {{ else }} #333 {{ end }}" font-family="Roboto-Bold, Roboto" font-size="59.74" font-weight="700" transform="translate(97.92 88.47)">
+    VER
+  </text>
+  <text fill="{{ with .letterFill }} {{ . }} {{ else }} #333 {{ end }}" font-family="Roboto-Regular, Roboto" font-size="30.42" transform="translate(240.4 87.07)">
+    F
+  </text>
+  <text fill="{{ with .letterFill }} {{ . }} {{ else }} #333 {{ end }}" font-family="Roboto-Bold, Roboto" font-size="59.74" font-weight="700" transform="translate(255.15 88.47)">
+    TR
+    <tspan letter-spacing="-.04em" x="75.09" y="0">A</tspan>
+    <tspan letter-spacing="0em" x="113.04" y="0">VEL</tspan>
+  </text>
+</svg>
