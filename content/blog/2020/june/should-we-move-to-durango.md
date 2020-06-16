@@ -22,14 +22,6 @@ Now it will probably shange?
 
 Ac felis donec et odio pellentesque diam volutpat commodo. Faucibus nisl tincidunt eget nullam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Dignissim sodales ut eu sem integer vitae justo eget.
 
-{{< blogImage
-  src="/uploads/inpost-image2-1000x800-tiny.jpg"
-  dataSrc="/uploads/inpost-image2-600x480.jpg"
-  srcSet="/uploads/inpost-image2-1000x800-tiny.jpg"
-  dataSrcSet="/uploads/inpost-image2-1000x800.jpg"
-  altTag="This is the alt tag"
-  titleTag="This is the title tag" >}}
-
 1. Reason one
 2. Reason two
 3. Reason three
