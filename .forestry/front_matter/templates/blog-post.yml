@@ -61,6 +61,11 @@ fields:
   label: Post Teaser Copy
   description: Write a one to two sentence teaser for the post. Create some curiosity
     so the visitor wants to click and read.
+- name: multi_image_upload
+  type: image_gallery
+  config: {}
+  label: Multi Image Upload
+  description: This is a test of the multi image upload
 pages:
 - content/blog/2020/june/should-we-move-to-durango.md
 - content/blog/2020/june/the-joys-of-hiking-in-pure-nature.md
