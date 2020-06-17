@@ -7,6 +7,27 @@ metaDataFormat = "yaml"
   customCSS = ["/css/global.css", "/css/header.css", "/css/home.css", "/css/blog-post.css", "css/contact.css"]
   customJS = ["/js/header.js"]
 
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.71.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.71.0"
+HUGO_ENV = "production"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.71.0"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
 
 # Feature Image Dimesions: 1440x756
 # [menu]
