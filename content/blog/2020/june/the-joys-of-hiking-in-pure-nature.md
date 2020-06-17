@@ -10,7 +10,6 @@ feature_image_title_tag: The First Step
 post_teaser_copy: Hiking is one of the best things to rejuvenate your body and mind.
   It's exhausting and yet while you do it you feel free. Let's talk about this shall
   we?
-draft: true
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet sit amet cursus sit amet dictum. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. In fermentum et sollicitudin ac. Gravida neque convallis a cras semper. Viverra accumsan in nisl nisi scelerisque eu. Nulla aliquet enim tortor at auctor urna nunc id.
