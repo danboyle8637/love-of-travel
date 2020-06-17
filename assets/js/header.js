@@ -33,6 +33,7 @@ const menuCloseIconOptions = {
 
 const navItemArray = Array.from(navItems);
 
+// ******************** Closes menu drawer before navigation
 navItemArray.forEach((link) => {
   link.addEventListener("click", (event) => {
     event.preventDefault();
@@ -51,6 +52,7 @@ gsap.set(navItemArray, { opacity: 0, x: "100%" });
 
 // ******************** Open the menu drawer
 const handleMenuBurgerClick = () => {
+  mobileMenuDrawer.style.visibility = "visible";
   gsap.to(mobileMenuDrawer, menuDrawerOpenOptions);
   gsap.to(navItemArray, menuDrawerItemOptions);
   gsap.to(mobileNavCloseIcon, menuCloseIconOptions);

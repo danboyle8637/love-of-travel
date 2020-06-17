@@ -106,6 +106,7 @@
 
 .post-card-content p {
   font-size: 15px;
+  line-height: 1.4;
 }
 
 .post-card-content button {
@@ -130,7 +131,7 @@
 }
 
 .post-card-content button:hover {
-  background-color: #436547;
+  background-color: #bd4262;
 }
 
 .post-card-content button .blog-post-card {
