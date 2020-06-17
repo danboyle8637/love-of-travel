@@ -19,6 +19,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Arcu odio ut sem nulla pharetra diam sit amet. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Felis bibendum ut tristique et. Pellentesque habitant morbi tristique senectus et netus et malesuada.
 
+{{< blogImage src="/uploads/inpost-image1-600x480-tiny-1.jpg" dataSrc="/uploads/inpost-image1-600x480-2.jpg" srcSet="/uploads/inpost-image1-600x480-tiny-1.jpg" dataSrcSet="/uploads/inpost-image1-1000x800-2.jpg" altTag="Hiking with friends" titleTag="Hiking with friends" >}}
+
 Varius morbi enim nunc faucibus a pellentesque sit amet. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Mi in nulla posuere sollicitudin aliquam ultrices. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Lacus viverra vitae congue eu consequat ac felis donec et.
 
 Eros in cursus turpis massa tincidunt dui ut. Ante in nibh mauris cursus mattis molestie a iaculis. Scelerisque varius morbi enim nunc faucibus a pellentesque. Sit amet purus gravida quis blandit. Suscipit tellus mauris a diam maecenas sed. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis.
@@ -30,6 +32,8 @@ Non sodales neque sodales ut etiam sit amet nisl purus. Etiam dignissim diam qui
 {{< bulletList >}} {{< bullet text="This is bullet one" >}} {{< bullet text="This is bullet two" >}} {{< bullet text="This is bullet three" >}} {{< bullet text="This is bullet four" >}} {{</ bulletList >}}
 
 ### This is a Headline 3
+
+{{< blogImage src="/uploads/inpost-image2-1000x800-tiny-1.jpg" dataSrc="/uploads/inpost-image2-600x480-2.jpg" srcSet="/uploads/inpost-image2-1000x800-tiny-1.jpg" dataSrcSet="/uploads/inpost-image2-1000x800-2.jpg" altTag="A dark wood trail" titleTag="The Dark Wood Trail" >}}
 
 Turpis nunc eget lorem dolor sed viverra ipsum nunc. Pulvinar sapien et ligula ullamcorper. Vulputate sapien nec sagittis aliquam. Donec massa sapien faucibus et molestie ac feugiat. Suspendisse sed nisi lacus sed viverra tellus in hac.
 
@@ -56,6 +60,8 @@ They have a great selection and really good price. Plus tell Jerry I send you an
 Egestas dui id ornare arcu odio. Sit amet volutpat consequat mauris. Commodo elit at imperdiet dui accumsan. Nunc vel risus commodo viverra maecenas accumsan lacus.
 
 Phasellus vestibulum lorem sed risus ultricies tristique nulla. Diam maecenas sed enim ut. Turpis egestas integer eget aliquet nibh praesent tristique magna. Auctor augue mauris augue neque gravida.
+
+{{< blogImage src="/uploads/inpost-image3-600x480-tiny-1.jpg" dataSrc="/uploads/inpost-image3-600x480-2.jpg" srcSet="/uploads/inpost-image3-600x480-tiny-1.jpg" dataSrcSet="/uploads/inpost-image3-1000x800-2.jpg" altTag="The trail of the trail" titleTag="Trailing it out while hiking" >}}
 
 At in tellus integer feugiat. Faucibus turpis in eu mi bibendum neque. Odio eu feugiat pretium nibh ipsum. Semper auctor neque vitae tempus quam pellentesque. Sed vulputate mi sit amet. Turpis cursus in hac habitasse platea dictumst quisque. Adipiscing elit pellentesque habitant morbi tristique.
 
