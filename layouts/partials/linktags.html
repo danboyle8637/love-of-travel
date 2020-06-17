@@ -5,9 +5,9 @@
 {{ $homeCSS := resources.Get "css/home.css" | resources.Minify }}
 {{ $footerCSS := resources.Get "css/footer.css" | resources.Minify }}
 
-<link rel="stylesheet" type="text/css" href="{{ $blogPostCSS.Permalink }}"/>
-<link rel="stylesheet" type="text/css" href="{{ $contactCSS.Permalink }}"/>
-<link rel="stylesheet" type="text/css" href="{{ $globalCSS.Permalink }}"/>
-<link rel="stylesheet" type="text/css" href="{{ $headerCSS.Permalink }}"/>
-<link rel="stylesheet" type="text/css" href="{{ $homeCSS.Permalink }}"/>
-<link rel="stylesheet" type="text/css" href="{{ $footerCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $blogPostCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $contactCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $globalCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $headerCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $homeCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $footerCSS.Permalink }}"/>

@@ -1,37 +1,57 @@
 const menuBar = document.querySelector(".nav-container");
-const navLogo = document.querySelector(".mountain-logo");
 const mobileNavBurger = document.querySelector(".mobile-nav-burger");
+const mobileNavCloseIcon = document.querySelector(".close-icon");
 const mobileMenuDrawer = document.querySelector(".mobile-menu-drawer");
 const mobileMenuCloseIcon = document.querySelector(".close-icon");
+const navLinkList = document.querySelector(".nav-items-container");
+const navItems = document.querySelectorAll(".drawer-menu-item");
 
-const handleMountainLogoClick = (event) => {
-  console.log("LOGO CLICKED!");
+// ******************** Animation Definitions
+const menuDrawerCloseOptions = {
+  duration: 0.3,
+  x: "100%",
 };
 
+const menuDrawerOpenOptions = {
+  duration: 0.3,
+  x: 0,
+};
+
+const menuDrawerItemOptions = {
+  duration: 0.4,
+  stagger: 0.3,
+  opacity: 1,
+  x: 0,
+  delay: 0.1,
+  ease: Back.easeOut,
+};
+
+const menuCloseIconOptions = {
+  rotation: -360,
+  delay: 0.2,
+};
+
+const navItemArray = Array.from(navItems);
+gsap.set(mobileMenuDrawer, { x: "100%" });
+gsap.set(navItemArray, { opacity: 0, x: "100%" });
+
+// ******************** Open the menu drawer
 const handleMenuBurgerClick = () => {
-  // Toggle the menu
-  console.log("Toggle Menu!");
-  mobileMenuDrawer.style.display = "block";
-  menuBar.style.display = "none";
+  gsap.to(mobileMenuDrawer, menuDrawerOpenOptions);
+  gsap.to(navItemArray, menuDrawerItemOptions);
+  gsap.to(mobileNavCloseIcon, menuCloseIconOptions);
 };
 
+// ******************** Close the menu drawer
 const handleMenuCloseIcon = () => {
-  mobileMenuDrawer.style.display = "none";
-  menuBar.style.display = "flex";
+  gsap.to(mobileMenuDrawer, menuDrawerCloseOptions);
 };
-
-navLogo.addEventListener("click", handleMountainLogoClick);
 
 mobileNavBurger.addEventListener("click", handleMenuBurgerClick);
 mobileMenuCloseIcon.addEventListener("click", handleMenuCloseIcon);
 
-// Grab the nav menu link list
-const navLinkList = document.querySelector(".nav-items-container");
-
-// Build a useMatchMedia hook in normal JS
+// ******************** Build a useMatchMedia hook in normal JS
 const mediaQuery = window.matchMedia(`(min-width: 600px)`);
-
-mobileMenuDrawer.style.display = "none";
 
 if (mediaQuery.matches) {
   navLinkList.style.display = "block";

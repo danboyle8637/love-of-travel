@@ -4,6 +4,10 @@
       {{- partial "svgs/cairn-rock-icon" . -}}
       <p>Find Your Way</p>
     </div>
-    {{- if .Inner -}} {{ safeHTML .Inner | markdownify }} {{- end -}}
+    <div>
+      {{- if .Inner -}}
+        {{ safeHTML .Inner | markdownify }}
+      {{- end -}}
+    </div>
   </div>
 </div>

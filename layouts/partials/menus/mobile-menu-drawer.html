@@ -1,6 +1,8 @@
 <div class="mobile-menu-drawer">
   <div class="mobile-menu-container">
-    {{- partial "svgs/close-icon.html" . -}}
+    <div class="close-icon">
+      {{- partial "svgs/close-icon.html" . -}}
+    </div>
     <div class="mobile-menu-item-container">
       {{ range .Site.Menus.main }}
         <a class="drawer-menu-item" href="{{ .URL }}">{{ .Name }}</a>

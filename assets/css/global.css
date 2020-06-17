@@ -11,15 +11,18 @@ html {
 body {
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   background: #fff;
 }
 
 main {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1,

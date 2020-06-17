@@ -32,6 +32,7 @@
 }
 
 .post-container {
+  align-self: center;
   padding: 0 12px;
   width: 100%;
   max-width: 800px;
@@ -191,11 +192,13 @@
 }
 
 .cairn-rock-container {
+  justify-self: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, min-content);
   gap: 8px;
   justify-items: center;
+  width: 200px;
 }
 
 .cairn-rock-container p {
@@ -208,19 +211,28 @@
   width: 80px;
 }
 
-/* Above Mobile */
+/********** Above Mobile **********/
 @media (min-width: 600px) {
   .post-container {
     padding: 0 42px;
   }
 
-  .cairn-tip-container {
+  .cairn-tip-content-container {
     grid-template-columns: min-content 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .cairn-rock-container {
+    align-self: start;
+  }
+
+  .cairn-rock-container p {
+    margin: 0;
   }
 }
 
-/* Above Tablet */
+/********** Above Tablet **********/
 @media (min-width: 960px) {
   .post-title-headline {
     font-size: 58px;
@@ -235,11 +247,11 @@
   }
 }
 
-/* Above iPadPro */
+/********** Above Ipad **********/
 @media (min-width: 1100px) {
 }
 
-/* Above Laptop */
+/********** Above Laptop **********/
 @media (min-width: 1445px) {
   .post-feature-image-container {
     border-radius: 8px;
