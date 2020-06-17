@@ -7,5 +7,3 @@ menu:
     url: "/"
     weight: 1
 ---
-
-Content in the home page markdown file

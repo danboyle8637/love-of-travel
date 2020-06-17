@@ -1,5 +1,8 @@
+{{ $current := . }}
+{{ $menu := "main" }}
+
 <div class="footer-main-menu">
-  <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
+  {{ range .Site.Menus.main }}
+    <a class="footer-menu-item {{ if $current.IsMenuCurrent $menu . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
 </div>

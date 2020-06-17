@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <h1 style="margin-top: 60px;">Contact Page</h1>
-  <p>It's a list page and not a single page, which makes sense.</p>
+<div class="base-page-container">
+  <h1>{{ .Title }}</h1>
+  <div class="base-content-container">
+    {{ .Content }}
+  </div>
   {{- partial "forms/contact-form" . -}}
+</div>
 {{ end }}

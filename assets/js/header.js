@@ -32,6 +32,20 @@ const menuCloseIconOptions = {
 };
 
 const navItemArray = Array.from(navItems);
+
+navItemArray.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const location = link.getAttribute("href");
+
+    gsap.to(mobileMenuDrawer, menuDrawerCloseOptions);
+
+    setTimeout(() => {
+      window.location = location;
+    }, 300);
+  });
+});
+
 gsap.set(mobileMenuDrawer, { x: "100%" });
 gsap.set(navItemArray, { opacity: 0, x: "100%" });
 

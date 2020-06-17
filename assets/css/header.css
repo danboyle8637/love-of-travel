@@ -23,15 +23,16 @@
   width: 40px;
 }
 
-.nav-items-container a {
+.nav-item {
   margin: 0 40px 0 0;
   text-decoration: none;
   color: #484848;
   text-transform: uppercase;
   letter-spacing: 0.16rem;
+  transition: font-weight 300ms ease-in-out;
 }
 
-.nav-items-container a:last-child {
+.nav-item:last-child {
   margin: 0;
 }
 
@@ -77,10 +78,15 @@
 
 .drawer-menu-item {
   font-size: 34px;
-  font-weight: 800;
+  font-weight: 600;
   color: #484848;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.active {
+  font-weight: 600;
+  color: #3d6f44;
 }
 
 @media (min-width: 600px) {

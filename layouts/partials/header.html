@@ -1,3 +1,6 @@
+{{ $current := . }}
+{{ $menu := "main" }}
+
 <header id="site-header">
   <div class="nav-container">
     <a class="mountain-logo" href="/">
@@ -6,7 +9,7 @@
     {{- partial "svgs/mobile-nav-burger.html" . -}}
     <nav class="nav-items-container">
       {{ range .Site.Menus.main }}
-      <a class="nav-item" href="{{ .URL }}">{{ .Name }}</a>
+        <a class="nav-item {{ if $current.IsMenuCurrent $menu . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
   </div>

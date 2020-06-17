@@ -178,4 +178,12 @@
   .blog-post-list-container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .post-card-link {
+    transition: transform 300ms ease-in-out;
+  }
+
+  .post-card-link:hover {
+    transform: translateY(-6px);
+  }
 }

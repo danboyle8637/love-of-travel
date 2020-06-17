@@ -9,15 +9,22 @@ metaDataFormat = "yaml"
 
 
 # Feature Image Dimesions: 1440x756
+# [menu]
 
-# [[menu.main]]
-#   name = "Home"
-#   url = "/"
+#   [[menu.main]]
+#     name = "Home"
+#     title = "Home Page"
+#     url = "/"
+#     weight = 1
 
-# [[menu.main]]
-#   name = "About"
-#   url = "/about"
+#   [[menu.main]]
+#     name = "About"
+#     title = "About Page"
+#     url = "/about"
+#     weight = 2
 
-# [[menu.main]]
-#   name = "Contact"
-#   url = "/contact"
+#   [[menu.main]]
+#     name = "Contact"
+#     title = "Contact Page"
+#     url = "/contact"
+#     weight = 3

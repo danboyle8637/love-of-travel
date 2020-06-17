@@ -1,3 +1,6 @@
+{{ $current := . }}
+{{ $menu := "main" }}
+
 <div class="mobile-menu-drawer">
   <div class="mobile-menu-container">
     <div class="close-icon">
@@ -5,7 +8,7 @@
     </div>
     <div class="mobile-menu-item-container">
       {{ range .Site.Menus.main }}
-        <a class="drawer-menu-item" href="{{ .URL }}">{{ .Name }}</a>
+        <a class="drawer-menu-item {{ if $current.IsMenuCurrent $menu . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </div>
   </div>
