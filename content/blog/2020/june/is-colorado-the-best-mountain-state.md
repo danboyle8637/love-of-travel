@@ -10,7 +10,6 @@ feature_image_title_tag: The Famous Graffiti Wall In Denver
 post_teaser_copy: There are many amazing mountain states in the United States. Is
   Colorado the best? Let's talk about it because everybody forgets about this other
   state.
-draft: true
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet sit amet cursus sit amet dictum. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. In fermentum et sollicitudin ac. Gravida neque convallis a cras semper. Viverra accumsan in nisl nisi scelerisque eu. Nulla aliquet enim tortor at auctor urna nunc id.
