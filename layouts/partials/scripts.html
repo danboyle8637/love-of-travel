@@ -4,20 +4,20 @@
 {{ $imageJS := resources.Get "js/images.js" | resources.Minify }}
 {{ $functions := resources.Get "js/functions.js" | resources.Minify }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-<script src="{{ $headerJS.Permalink }}" async></script>
-<script src="{{ $functions.Permalink }}" async></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script src="{{ $headerJS.Permalink }}"></script>
+<script src="{{ $functions.Permalink }}"></script>
 
 {{ if eq .Section "blog" }}
-  <script src="{{ $imageJS.Permalink }}" async></script>
+  <script src="{{ $imageJS.Permalink }}"></script>
 {{ end }}
 
 {{ if eq .Section "" }}
-  <script src="{{ $homeJS.Permalink }}" async></script>
+  <script src="{{ $homeJS.Permalink }}"></script>
 {{ end }}
 
 {{ with .File }}
   {{ if in .File.Dir "contact" }}
-    <script src="{{ $contactJS.Permalink }}" async></script>
+    <script src="{{ $contactJS.Permalink }}"></script>
   {{ end }}
 {{ end }}
