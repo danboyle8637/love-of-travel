@@ -46,7 +46,19 @@ p {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 18px;
   color: #464646;
+}
+
+li {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #464646;
+}
+
+a {
+  font-family: sans-serif;
+  font-size: 18px;
 }
 
 img {
