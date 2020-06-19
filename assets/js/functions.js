@@ -17,7 +17,7 @@ const options = {
   threshold: 0.2,
 };
 
-const observerCallBack = (entries) => {
+const imageObserverCallBack = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       // RUN BLURUP
@@ -30,4 +30,4 @@ const observerCallBack = (entries) => {
   });
 };
 
-const imageObserver = new IntersectionObserver(observerCallBack, options);
+const imageObserver = new IntersectionObserver(imageObserverCallBack, options);
