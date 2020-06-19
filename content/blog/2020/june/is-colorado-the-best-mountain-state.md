@@ -40,6 +40,14 @@ Eros in cursus turpis massa tincidunt dui ut. Ante in nibh mauris cursus mattis 
 
 Mi tempus imperdiet nulla malesuada pellentesque elit. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Enim eu turpis egestas pretium aenean. Tortor id aliquet lectus proin nibh nisl. Sed augue lacus viverra vitae congue eu.
 
+{{< blogImage
+src="/uploads/in-post-mountain-river-50x40-tiny.jpg"
+dataSrc="/uploads/in-post-mountain-river-600x480.jpg"
+srcSet="/uploads/in-post-mountain-river-50x40-tiny.jpg"
+dataSrcSet="/uploads/in-post-mountain-river-1000x800.jpg"
+altTag="Create your alt tag"
+titleTag="Give your image a title" >}}
+
 Non sodales neque sodales ut etiam sit amet nisl purus. Etiam dignissim diam quis enim.
 
 {{< bulletList >}} {{< bullet text="This is bullet one" >}} {{< bullet text="This is bullet two" >}} {{< bullet text="This is bullet three" >}} {{< bullet text="This is bullet four" >}} {{</ bulletList >}}
@@ -57,6 +65,14 @@ Mollis nunc sed id semper risus in hendrerit gravida. Nulla facilisi etiam digni
 Eu sem integer vitae justo eget. Placerat in egestas erat imperdiet sed euismod. In arcu cursus euismod quis viverra nibh cras pulvinar. Nunc non blandit massa enim nec dui nunc mattis. Vel turpis nunc eget lorem dolor.
 
 ### This is a Headline 3
+
+{{< blogImage
+src="add the url for the tiny image here"
+dataSrc="add the url for the mobile image here 600x480"
+srcSet="add the url for the tiny image here"
+dataSrcSet="add the url for the above mobile image here 1000x800"
+altTag="Create your alt tag"
+titleTag="Give your image a title" >}}
 
 Sapien pellentesque habitant morbi tristique senectus. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Etiam erat velit scelerisque in dictum. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Est sit amet facilisis magna etiam tempor orci eu lobortis. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Aliquam vestibulum morbi blandit cursus risus at.
 
