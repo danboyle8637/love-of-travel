@@ -16,6 +16,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### This is a Heading 3
 
+{{< calloutBox headline="Short Powerful Headline" >}}
+
+If you want city life with your mountains, I think Colorado has the best option in Denver. But I hear north eastern Washington has amazing mountains that don't get any love.
+
+And then there's Alaska, which might be the best, but I've never been there to truly see.
+
+{{</ calloutBox >}}
+
 Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Arcu odio ut sem nulla pharetra diam sit amet. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Felis bibendum ut tristique et. Pellentesque habitant morbi tristique senectus et netus et malesuada.
 
 Varius morbi enim nunc faucibus a pellentesque sit amet. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Mi in nulla posuere sollicitudin aliquam ultrices. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Lacus viverra vitae congue eu consequat ac felis donec et.
