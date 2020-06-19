@@ -1,3 +1,6 @@
-<div class="tag-chip-container">
-  <p>Chip Label</p>
+<div class="post-card-tag-container">
+  {{- partial "svgs/blog-tag-icon" . -}}
+  {{ range .Params.post_tags }}
+    <p class="blog-tag-label">#{{ . }}</p>
+  {{ end }}
 </div>
