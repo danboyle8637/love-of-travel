@@ -16,6 +16,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### This is a Heading 3
 
+{{< blogImage
+src="/uploads/in-post-mountain-lake-50x40-tiny.jpg"
+dataSrc="/uploads/in-post-mountain-lake-600x480.jpg"
+srcSet="/uploads/in-post-mountain-lake-50x40-tiny.jpg"
+dataSrcSet="/uploads/in-post-mountain-lake-1000x800.jpg"
+altTag="Create your alt tag"
+titleTag="Give your image a title" >}}
+
 {{< calloutBox headline="Short Powerful Headline" >}}
 
 If you want city life with your mountains, I think Colorado has the best option in Denver. But I hear north eastern Washington has amazing mountains that don't get any love.
