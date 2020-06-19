@@ -67,10 +67,10 @@ Eu sem integer vitae justo eget. Placerat in egestas erat imperdiet sed euismod.
 ### This is a Headline 3
 
 {{< blogImage
-src="add the url for the tiny image here"
-dataSrc="add the url for the mobile image here 600x480"
-srcSet="add the url for the tiny image here"
-dataSrcSet="add the url for the above mobile image here 1000x800"
+src="/uploads/in-post-mountain-sunset-50x40-tiny.jpg"
+dataSrc="/uploads/in-post-mountain-sunset-600x480.jpg"
+srcSet="/uploads/in-post-mountain-sunset-50x40-tiny.jpg"
+dataSrcSet="/uploads/in-post-mountain-sunset-1000x800.jpg"
 altTag="Create your alt tag"
 titleTag="Give your image a title" >}}
 
