@@ -3,8 +3,8 @@ post_tags:
 - Mountains
 title: Is Colorado The Best Mountain State?
 publish_date: 2020-06-18T04:00:00.000+00:00
-feature_image: "/uploads/feature-image-denver-graffeti-1440x756.jpg"
-tiny_feature_image: "/uploads/feature-image-denver-graffeti-50x26-tiny.jpg"
+feature_image: ''
+tiny_feature_image: ''
 feature_image_alt_tag: Denver graffiti on a wall
 feature_image_title_tag: The Famous Graffiti Wall In Denver
 post_teaser_copy: There are many amazing mountain states in the United States. Is
