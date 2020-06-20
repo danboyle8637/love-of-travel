@@ -65,7 +65,7 @@
   transition: filter 1000ms ease-in-out;
 }
 
-.post-card-tag-container {
+.post-card-tag-container, .post-card-mobile-tag-container {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -84,7 +84,7 @@
   cursor: pointer;
 }
 
-.blog-tag-label {
+.blog-tag-label, .blog-tag-mobile-label {
   margin-left: 12px;
   font-size: 13px;
   color: #ececec;
