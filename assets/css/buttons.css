@@ -1,0 +1,21 @@
+.base-button {
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f8f8f8;
+  background-color: #3d6f44;
+  border: none;
+  border-radius: 16px;
+  width: 245px;
+  height: 48px;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.base-button:hover {
+	background-color: #bd4262;
+}

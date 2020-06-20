@@ -34,8 +34,10 @@ if (contactForm) {
         message: message,
       }),
     })
-      .then(() => navigate(form.getAttribute("action")))
-      .catch((error) => alert(error));
+      .then(() => {
+        window.location = form.getAttribute("action")
+      })
+      .catch((error) => alert("Something went wrong. Try again!"));
   });
 
   nameField.addEventListener("input", (event) => {

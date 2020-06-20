@@ -1,4 +1,9 @@
 {{ define "main" }}
-  <h1 style="margin-top: 60px;">Contact Page</h1>
-  <p>adsf;kasf;adslkfhjdsa;flkadsjhf;adslkfjhadsfas</p>
+  <div class="contact-thank-you-page-container">
+    <h1>{{ .Title }}</h1>
+    <div class="contact-thank-you-content-container">
+      {{ .Content }}
+    </div>
+    <a class="base-button" style="align-self: center;" href="/">Go Back Home</a>
+  </div>
 {{ end }}

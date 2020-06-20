@@ -1,4 +1,10 @@
-<form action="/contact-thank-you/" class="contact-form" data-netlify-honeypot="bot-field" data-netlify="true" method="POST" name="contact">
+<form 
+  action="{{ "/contact/thank-you/" | relURL }}"
+  class="contact-form" 
+  data-netlify-honeypot="bot-field" 
+  data-netlify="true" method="POST" 
+  name="contact"
+>
   <div class="form-input-container">
     <label class="contact-form-label" for="name">First Name:</label>
     <input class="contact-text-input" id="name" name="name" placeholder="Enter your first name..." type="text"/>
@@ -11,5 +17,5 @@
     <label class="contact-form-label" for="message">How can I help you?</label>
     <textarea class="contact-text-area" id="message" placeholder="Tell me how I can help..." rows="10"></textarea>
   </div>
-  <button class="form-button">Send My Message</button>
+  <button type="submit" class="form-button">Send My Message</button>
 </form>

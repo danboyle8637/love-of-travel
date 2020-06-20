@@ -12,7 +12,7 @@ tagLabelArray.forEach(label => {
 gsap.set(tagLabelArray, { opacity: 0, x: 300 });
 
 tagArray.forEach((tag) => {
-
+  // ***** Listen for when the mouse enters
   tag.addEventListener("mouseenter", () => {
     gsap.to(tag, {
       duration: 0.5,
@@ -31,6 +31,7 @@ tagArray.forEach((tag) => {
 
   });
 
+  // ***** Listen for when the mouse leaves
   tag.addEventListener("mouseleave", () => {
     gsap.to(tag, {
       duration: 0.5,
