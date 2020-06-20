@@ -1,6 +1,16 @@
 {{ define "main" }}
+  {{ $aboutImage := .Params.about_picture }}
+  {{ $tinyAboutIMage := .Params.about_picture_tiny }}
+  {{ $altTag := "Alt Tag" }}
+  {{ $titleTag := "Title Tag" }}
+
   <div class="blog-content-container">
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <div class="about-content-container">
+      {{- partial "images/about-image.html" (dict "src" $tinyAboutIMage "dataSrc" $aboutImage "altTag" $altTag "titleTag" $titleTag) -}}
+      <div>
+        {{ .Content }}
+      </div>
+    </div>
   </div>
 {{ end }}

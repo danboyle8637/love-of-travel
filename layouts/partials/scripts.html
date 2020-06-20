@@ -1,6 +1,7 @@
 {{ $headerJS := resources.Get "js/header.js" | resources.Minify }}
 {{ $contactJS := resources.Get "js/contact.js" | resources.Minify }}
 {{ $homeJS := resources.Get "js/home.js" | resources.Minify }}
+{{ $aboutJS := resources.Get "js/about.js" | resources.Minify }}
 {{ $imageJS := resources.Get "js/images.js" | resources.Minify }}
 {{ $functions := resources.Get "js/functions.js" | resources.Minify }}
 
@@ -19,5 +20,11 @@
 {{ with .File }}
   {{ if in .File.Dir "contact" }}
     <script src="{{ $contactJS.Permalink }}"></script>
+  {{ end }}
+{{ end }}
+
+{{ with .File }}
+  {{ if in .File.Dir "about" }}
+    <script src="{{ $aboutJS.Permalink }}"></script>
   {{ end }}
 {{ end }}

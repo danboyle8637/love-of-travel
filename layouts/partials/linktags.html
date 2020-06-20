@@ -5,6 +5,7 @@
 {{ $homeCSS := resources.Get "css/home.css" | resources.Minify }}
 {{ $footerCSS := resources.Get "css/footer.css" | resources.Minify }}
 {{ $buttonsCSS := resources.Get "css/buttons.css" | resources.Minify }}
+{{ $aboutCSS := resources.Get "css/about.css" | resources.Minify }}
 
 <link rel="stylesheet" href="{{ $blogPostCSS.Permalink }}"/>
 <link rel="stylesheet" href="{{ $contactCSS.Permalink }}"/>
@@ -13,3 +14,4 @@
 <link rel="stylesheet" href="{{ $homeCSS.Permalink }}"/>
 <link rel="stylesheet" href="{{ $footerCSS.Permalink }}"/>
 <link rel="stylesheet" href="{{ $buttonsCSS.Permalink }}"/>
+<link rel="stylesheet" href="{{ $aboutCSS.Permalink }}"/>
