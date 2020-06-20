@@ -1,8 +1,10 @@
 const tagIconContainers = document.querySelectorAll(".post-card-tag-container");
+const mobileTagIconContainers = document.querySelectorAll('.post-card-mobile-tag-container')
 const tagLabels = document.querySelectorAll(".blog-tag-label");
 const cardImages = document.querySelectorAll(".blog-feature-image");
 
 const tagArray = Array.from(tagIconContainers);
+const mobileTagArray = Array.from(mobileTagIconContainers)
 const tagLabelArray = Array.from(tagLabels);
 
 tagLabelArray.forEach(label => {
@@ -12,6 +14,13 @@ tagLabelArray.forEach(label => {
 gsap.set(tagLabelArray, { opacity: 0, x: 300 });
 
 tagArray.forEach((tag) => {
+  // ***** Setup the display based on device size
+  if (aboveIpadQuery.matches) {
+    tag.style.display = "flex"
+  } else {
+    tag.style.display = "none"
+  }
+
   // ***** Listen for when the mouse enters
   tag.addEventListener("mouseenter", () => {
     gsap.to(tag, {
@@ -50,6 +59,15 @@ tagArray.forEach((tag) => {
 
   });
 });
+
+mobileTagArray.forEach(tag => {
+  // ***** Setup the display based on device size
+  if (aboveIpadQuery.matches) {
+    tag.style.display = "none"
+  } else {
+    tag.style.display = "flex"
+  }
+})
 
 const cardImagesArray = Array.from(cardImages);
 

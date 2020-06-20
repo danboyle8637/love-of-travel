@@ -47,5 +47,8 @@
     "workbench.preferredDarkColorTheme": "Tokyo Night",
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "dank mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13
 }

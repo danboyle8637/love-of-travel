@@ -68,6 +68,7 @@ mobileMenuCloseIcon.addEventListener("click", handleMenuCloseIcon);
 
 // ******************** Build a useMatchMedia hook in normal JS
 const mediaQuery = window.matchMedia(`(min-width: 600px)`);
+const aboveIpadQuery = window.matchMedia(`(min-width: 1100px)`)
 
 if (mediaQuery.matches) {
   navLinkList.style.display = "block";

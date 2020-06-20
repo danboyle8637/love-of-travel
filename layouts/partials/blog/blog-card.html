@@ -8,6 +8,7 @@
     <div class="post-card-feature-image-container">
       {{- partial "blog/blog-feature-image.html" (dict "src" $tinyFeatureImage "dataSrc" $featureImage "altTag" $altTag "titleTag" $titleTag) -}}
       {{ partial "blog/tag-chip.html" . }}
+      {{ partial "blog/mobile-tag-chip" . }}
     </div>
     <div class="post-card-content">
       <h3>{{ .Params.title }}</h3>
