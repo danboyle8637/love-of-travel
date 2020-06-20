@@ -1,13 +1,14 @@
 ---
-title: "About"
-date: 2020-06-08T11:09:42-04:00
+title: About
+date: '2020-06-08T11:09:42.000-04:00'
+about_picture: "/uploads/rosella-about-page-800x1120.jpg"
+about_picture_tiny: "/uploads/rosella-about-page-tiny-50x70.jpg"
 menu:
   main:
-    name: "About"
     url: "/about"
     weight: 2
----
 
+---
 # About Lover of Travel
 
 This is the about page.
