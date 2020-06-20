@@ -1,4 +1,16 @@
 ---
-label: Base Single Page
+label: About Page
 hide_body: false
-fields: []
+fields:
+- name: about_picture
+  type: file
+  config:
+    maxSize: 64
+  label: About Picture
+  description: This is the main about picture for the simple about page.
+- name: about_picture_tiny
+  type: file
+  config:
+    maxSize: 64
+  label: About Picture Tiny
+  description: The tiny version of the about picture
