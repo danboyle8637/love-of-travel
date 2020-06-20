@@ -16,3 +16,4 @@ fields:
   description: The tiny version of the about picture
 pages:
 - content/about.md
+- content/about/_index.md
