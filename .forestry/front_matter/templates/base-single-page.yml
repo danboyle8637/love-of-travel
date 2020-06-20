@@ -14,6 +14,19 @@ fields:
     maxSize: 64
   label: About Picture Tiny
   description: The tiny version of the about picture
-pages:
-- content/about.md
-- content/about/_index.md
+- name: image_alt_tag
+  type: text
+  config:
+    required: false
+  label: Image Alt Tag
+  description: The alt tag is a short sentence to explain the image to people who
+    use screen readers.
+  default: This is my about page image
+- name: image_title_tag
+  type: text
+  config:
+    required: false
+  label: Image Title Tag
+  description: The title tag is a short title for the image. This is displayed when
+    the mouse hovers the image or when SE's read the image.
+  default: My Image Title
