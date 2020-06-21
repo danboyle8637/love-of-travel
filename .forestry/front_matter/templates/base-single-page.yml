@@ -2,6 +2,12 @@
 label: About Page
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: This is the title of the page.
 - name: about_picture
   type: file
   config:
