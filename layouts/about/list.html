@@ -4,7 +4,7 @@
   {{ $altTag := "Alt Tag" }}
   {{ $titleTag := "Title Tag" }}
 
-  <div class="blog-content-container">
+  <div class="page-container">
     <h1>{{ .Title }}</h1>
     <div class="about-content-container">
       {{- partial "images/about-image.html" (dict "src" $tinyAboutIMage "dataSrc" $aboutImage "altTag" $altTag "titleTag" $titleTag) -}}
@@ -13,4 +13,5 @@
       </div>
     </div>
   </div>
+
 {{ end }}
