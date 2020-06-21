@@ -30,5 +30,3 @@ fields:
   description: The title tag is a short title for the image. This is displayed when
     the mouse hovers the image or when SE's read the image.
   default: My Image Title
-pages:
-- about/_index.md
