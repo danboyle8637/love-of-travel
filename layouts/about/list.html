@@ -8,7 +8,7 @@
     <h1>{{ .Title }}</h1>
     <div class="about-content-container">
       {{- partial "images/about-image.html" (dict "src" $tinyAboutIMage "dataSrc" $aboutImage "altTag" $altTag "titleTag" $titleTag) -}}
-      <div>
+      <div class="about-content">
         {{ .Content }}
       </div>
     </div>

@@ -32,3 +32,10 @@
   gap: 20px;
   width: 100%;
 }
+
+.about-content p {
+  margin-bottom: 26px;
+  font-size: 15px;
+  color: #484848;
+  line-height: 1.8;
+}
