@@ -31,7 +31,8 @@
   color: #3f3f3f;
 }
 
-.about-page-container h2, h3 {
+.about-page-container h2, 
+.about-page-container h3 {
   margin: 80px 0 30px 0;
   font-size: 46px;
   color: #3f3f3f;
