@@ -93,6 +93,12 @@ Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Urna
 
 Egestas dui id ornare arcu odio ut. Phasellus egestas tellus rutrum tellus. Ac feugiat sed lectus vestibulum mattis ullamcorper. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Amet massa vitae tortor condimentum lacinia quis vel.
 
+{{< cairnTip >}}
+
+This is another tip and the text should be white but I think I can improve it more.
+
+{{</ cairnTip >}}
+
 Tellus id interdum velit laoreet id donec ultrices tincidunt. Ut sem viverra aliquet eget sit amet. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Hendrerit gravida rutrum quisque non tellus orci.
 
 Morbi tincidunt augue interdum velit euismod.
