@@ -2,7 +2,7 @@
 post_tags:
 - hiking
 title: The Joys of Hiking In Pure Nature
-publish_date: 2020-06-17T04:00:00+00:00
+publish_date: 2020-06-17T04:00:00.000+00:00
 feature_image: "/uploads/hiking-post-feature-image-1440x756.jpg"
 tiny_feature_image: "/uploads/hiking-post-feature-image-1000x525-tiny.jpg"
 feature_image_alt_tag: A girl about to set out on a long hike
@@ -37,6 +37,12 @@ Non sodales neque sodales ut etiam sit amet nisl purus. Etiam dignissim diam qui
 Turpis nunc eget lorem dolor sed viverra ipsum nunc. Pulvinar sapien et ligula ullamcorper. Vulputate sapien nec sagittis aliquam. Donec massa sapien faucibus et molestie ac feugiat. Suspendisse sed nisi lacus sed viverra tellus in hac.
 
 Arcu risus quis varius quam quisque id diam vel quam. Tellus in hac habitasse platea dictumst vestibulum. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Integer enim neque volutpat ac tincidunt vitae. Sed blandit libero volutpat sed cras ornare arcu. Elit at imperdiet dui accumsan. Sit amet aliquam id diam maecenas ultricies mi. Laoreet id donec ultrices tincidunt arcu.
+
+{{< cairnTip >}}
+
+Write your tip here. The text should be white and the site should rebuild to show this tip.
+
+{{</ cairnTip >}}
 
 At ultrices mi tempus imperdiet. Odio aenean sed adipiscing diam donec.
 
