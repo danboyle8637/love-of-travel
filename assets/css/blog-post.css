@@ -169,12 +169,6 @@
   box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.5);
 }
 
-.cairn-tip-container p {
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: #f8f8f8;
-}
-
 .cairn-tip-content-container {
   padding: 20px;
   display: grid;
@@ -193,10 +187,11 @@
   grid-template-rows: repeat(2, min-content);
   gap: 8px;
   justify-items: center;
-  width: 200px;
+  width: 100%;
 }
 
 .cairn-rock-container p {
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   color: #314d35;
@@ -204,6 +199,13 @@
 
 .cairn-rock-icon {
   width: 80px;
+}
+
+.cairn-content p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #f8f8f8;
+  line-height: 1.4;
 }
 
 /********** Above Mobile **********/
@@ -215,11 +217,13 @@
   .cairn-tip-content-container {
     grid-template-columns: min-content 1fr;
     grid-template-rows: 1fr;
+    gap: 40px;
     align-items: center;
   }
 
   .cairn-rock-container {
     align-self: start;
+    width: 130px;
   }
 
   .cairn-rock-container p {
