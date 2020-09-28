@@ -83,6 +83,7 @@
 }
 
 .blog-picture-container {
+  margin-bottom: 40px;
   position: relative;
   padding-top: calc(20 / 25 * 100%);
   width: 100%;

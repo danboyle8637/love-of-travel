@@ -1,11 +1,13 @@
+{{/* Sets the green background for the tip card  */}}
 <div class="cairn-tip-container">
+  {{/* Sets the border for the inner border of the tip card */}}
   <div class="cairn-tip-content-container">
     <div class="cairn-rock-container">
       {{- partial "svgs/cairn-rock-icon" . -}}
       <p>Find Your Way</p>
     </div>
     <div class="cairn-content">
-      {{- if .Inner -}}
+      {{- if gt (len .Inner) 0 -}}
         {{ .Inner | markdownify }}
       {{- end -}}
     </div>
