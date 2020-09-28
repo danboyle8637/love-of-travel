@@ -42,8 +42,6 @@ Arcu risus quis varius quam quisque id diam vel quam. Tellus in hac habitasse pl
 
 Write your tip here. The text should be white and the site should rebuild to show this tip.
 
-Second line wraps each in a p tag... but why?
-
 {{</ cairnTip >}}
 
 At ultrices mi tempus imperdiet. Odio aenean sed adipiscing diam donec.
