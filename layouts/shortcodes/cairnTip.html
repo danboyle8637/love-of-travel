@@ -1,3 +1,5 @@
+{{- $markdown := .Inner | markdownify -}}
+
 {{/* Sets the green background for the tip card  */}}
 <div class="cairn-tip-container">
   {{/* Sets the border for the inner border of the tip card */}}
@@ -7,9 +9,12 @@
       <p>Find Your Way</p>
     </div>
     <div class="cairn-content">
-      {{- if gt (len .Inner) 0 -}}
-        {{ .Inner | markdownify }}
-      {{- end -}}
+      {{/* Looks for an h or p tag and if not there wraps it. */}}
+      {{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+        <p>{{ $markdown }}</p>
+      {{ else }}
+        {{ $markdown }}
+      {{ end }}
     </div>
   </div>
 </div>

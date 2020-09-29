@@ -5,11 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog-post.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog-post.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/shortcodes/cairnTip.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/shortcodes/cairnTip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/calloutBox.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/shortcodes/calloutBox.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -21,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />

@@ -1,14 +1,20 @@
 {{- $headline := cond (.IsNamedParams) (.Get "headline") (.Get 0) -}}
 {{- $buttonText := cond (.IsNamedParams) (.Get "buttonText") (.Get 0) -}}
+{{- $link := cond (.IsNamedParams) (.Get "link") (.Get 0) -}}
+{{- $markdown := .Inner | markdownify -}}
 
 <div class="callout-box-default-container">
   <div class="callout-box-default-content-container">
     <h4>{{- $headline -}}</h4>
     <div class="callout-box-message">
-      {{ safeHTML .Inner | markdownify }}
+      {{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+        <p>{{ $markdown }}</p>
+      {{ else }}
+        {{ $markdown }}
+      {{ end }}
     </div>
     {{- with $buttonText -}}
-      <a class="callout-box-button" href="#">{{- $buttonText -}}</a>
+      <a class="callout-box-button" href="{{ $link }}" target="_blank" rel="noreferrer noopener">{{ $buttonText }}</a>
     {{- end -}}
   </div>
 </div>
