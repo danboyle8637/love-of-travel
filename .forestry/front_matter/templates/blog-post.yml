@@ -62,6 +62,7 @@ fields:
   description: Write a one to two sentence teaser for the post. Create some curiosity
     so the visitor wants to click and read.
 pages:
+- content/blog/2020/September/don-t-you-hate-it-when-you-feel...taken.md
 - content/blog/2020/june/is-colorado-the-best-mountain-state.md
 - content/blog/2020/june/should-we-move-to-durango.md
 - content/blog/2020/june/the-joys-of-hiking-in-pure-nature.md
